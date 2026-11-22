@@ -1,0 +1,11 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>UPSA Student Portal</title>
+<style>body{font-family:sans-serif;max-width:480px;margin:2rem auto;padding:0 1rem}input,button{display:block;width:100%;margin:.4rem 0;padding:.6rem;box-sizing:border-box}
+button{background:#1a2a5a;color:#fff;border:0}table{width:100%;border-collapse:collapse}td,th{border-bottom:1px solid #ccc;padding:.4rem;text-align:left}</style></head>
+<body><h2>UPSA Student Portal</h2>
+<form id="login"><input id="i" placeholder="Index number" required><input id="p" type="password" placeholder="Password" required>
+<input id="o" placeholder="6-digit authenticator code" required><button>Log in</button><p id="msg"></p></form>
+<div id="app" hidden><h3 id="who"></h3><table id="grades"><tr><th>Course</th><th>Score</th></tr></table>
+<form id="add" hidden><h4>Add grade (lecturer)</h4><input id="gi" placeholder="Index number"><input id="gc" placeholder="Course code">
+<input id="gs" type="number" min="0" max="100" placeholder="Score"><button>Save</button></form><button id="out">Log out</button></div>
+<script src="app.js"></script></body></html>

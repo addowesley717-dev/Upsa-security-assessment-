@@ -1,0 +1,2 @@
+{"name":"upsa-student-portal","version":"1.0.0","scripts":{"seed":"node --env-file=.env seed.js","start":"node --env-file=.env server.js","vuln":"VULNERABLE=1 node --env-file=.env server.js","attack":"node attacks/attacks.js"},
+"dependencies":{"bcrypt":"^5.1.1","better-sqlite3":"^11.0.0","express":"^4.19.2","express-rate-limit":"^7.4.0","helmet":"^7.1.0","jsonwebtoken":"^9.0.2","speakeasy":"^2.0.0"}}

@@ -1,0 +1,5 @@
+SUCCEEDED | SQL injection | password hashes leaked
+BLOCKED  | Brute force | 3/8 attempts rate-limited
+BLOCKED  | No token access | expect 401
+BLOCKED  | Forged JWT | expect 401
+BLOCKED  | Fake webhook | status 401
